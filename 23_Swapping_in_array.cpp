@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void printArray(int arr[], int n)
+void printArray(int arr[], int n)  
 {
 
     for (int i = 0; i < n; i++)
@@ -11,7 +11,7 @@ void printArray(int arr[], int n)
     cout << endl;
 }
 
-void swaapAlternate(int arr[], int size)
+void swapAlternate(int arr[], int size)
 {
 
     for (int i = 0; i < size; i += 2)
@@ -27,11 +27,12 @@ int main()
     int even[8] = {1, 2, 3, 4, 5, 6, 7, 8};
     int odd[7] = {1, 2, 3, 4, 5, 6, 0};
 
-    swaapAlternate(even, 8);
-    swaapAlternate(odd, 7);
+    swapAlternate(even, 8);
+    swapAlternate(odd, 7);
     printArray(even, 8);
     printArray(odd, 7);
 
     return 0;
 }
 
+  
